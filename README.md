@@ -1,4 +1,17 @@
-# Finding_Donors_for_Charity_ML
+# Finding Donors for CharityML
 
-Code
-Template code is provided in the finding_donors.ipynb notebook file. You will also be required to use the included visuals.py Python file and the census.csv dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project. Note that the code included in visuals.py is meant to be used out-of-the-box and not intended for students to manipulate. If you are interested in how the visualizations are created in the notebook, please feel free to explore this Python file.
+## Project Overview
+The aim of this project is to help a fictitious charity organization identify people most likely to donate by using sklearn and supervised learning techniques on data collected for the U.S. census.
+Firstly, the factors that affect the likelihood of charity donations being made are investigated. Then, a training and predicting pipeline to evaluate the accuracy and efficiency/speed of three supervised machine learning algorithms (GaussianNB, SVC, Adaboost) is created. Next, fine tune the parameters of the algorithm is made which provides the highest donation yield (while reducing mailing efforts/costs). Finally, the impact of reducing number of features in data is analysed.
+
+## Files Description
+ - **_finding_donors.ipynb_**: main code for this project
+ - **_visuals.py_**: additional supporting code for visualizing the necessary graphs
+
+## Instructions
+In a terminal or command window, run the following command:
+
+```jupyter notebook finding_donors.ipynb```
+
+## Acknowledgements
+This project was completed as a part of [Udacity Data Scientist Nanodegree](https://www.udacity.com/course/data-scientist-nanodegree--nd025).
